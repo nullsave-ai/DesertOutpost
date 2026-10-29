@@ -1,0 +1,153 @@
+{
+ "name": "Desert Outpost",
+ "version": 4,
+ "size_m": 200.0,
+ "compound_half": 42.0,
+ "triangles": {
+  "terrain": 43256,
+  "structures": 158224,
+  "props": 282090,
+  "foliage": 55832,
+  "fence": 64,
+  "total": 539466
+ },
+ "chunks": 148,
+ "spawns_unity": {
+  "SpawnPoint": [
+   0.47,
+   2.47,
+   92.0
+  ],
+  "Spawn_B": [
+   4.47,
+   2.47,
+   -92.0
+  ],
+  "Spawn_Gate": [
+   0.0,
+   0.15,
+   36.0
+  ],
+  "Spawn_Yard": [
+   0.0,
+   0.15,
+   5.0
+  ],
+  "Spawn_Hill": [
+   -65.0,
+   11.2,
+   -52.0
+  ],
+  "Spawn_East": [
+   90.5,
+   2.34,
+   -15.0
+  ],
+  "Spawn_Mesa": [
+   52.0,
+   7.03,
+   -78.0
+  ],
+  "Light_L_MAIN_0": [
+   4.81,
+   5.85,
+   33.0
+  ],
+  "Light_L_MAIN_1": [
+   -4.81,
+   5.85,
+   18.0
+  ],
+  "Light_L_MAIN_2": [
+   4.81,
+   5.85,
+   -27.0
+  ],
+  "Light_L_CROSS_3": [
+   -29.0,
+   5.85,
+   -1.69
+  ],
+  "Light_L_CROSS_4": [
+   -14.0,
+   5.85,
+   -10.31
+  ],
+  "Light_L_CROSS_5": [
+   16.0,
+   5.85,
+   -10.31
+  ],
+  "Light_L_CROSS_6": [
+   31.0,
+   5.85,
+   -1.69
+  ],
+  "Light_I_A1_0": [
+   -33.5,
+   2.66,
+   9.53
+  ],
+  "Light_I_A2_0": [
+   -15.0,
+   2.76,
+   9.53
+  ],
+  "Light_I_B1_0": [
+   -33.5,
+   2.76,
+   32.66
+  ],
+  "Light_I_B2_0": [
+   -15.0,
+   2.76,
+   32.66
+  ],
+  "Light_I_WH_0": [
+   16.0,
+   5.3,
+   8.3
+  ],
+  "Light_I_WH_2": [
+   32.0,
+   5.3,
+   8.3
+  ],
+  "Light_I_HQ_0": [
+   -29.49,
+   2.86,
+   -20.2
+  ],
+  "Light_I_SHOPW_0": [
+   12.74,
+   2.76,
+   -17.8
+  ],
+  "Light_I_SHOPE_0": [
+   31.67,
+   2.76,
+   -17.8
+  ],
+  "Light_I_CLINIC_0": [
+   31.66,
+   2.76,
+   -32.65
+  ],
+  "Light_L_check_-1": [
+   -4.41,
+   4.4,
+   52.0
+  ],
+  "Light_L_check_1": [
+   2.59,
+   4.4,
+   52.0
+  ],
+  "Light_L_gas": [
+   22.0,
+   4.87,
+   -66.0
+  ]
+ },
+ "notes": "COLOR_0 rgb=tint, a=(material id+0.5)/32 (Structures/Props/Fence), wind weight (Foliage), 4th splat weight (Terrain). ids 0-13 texture layers, 14 chain, 15 emissive, 16 glass, 17 rubber, 18 car paint. glTF z is mirrored by glTFast: unity z = -z"
+}
